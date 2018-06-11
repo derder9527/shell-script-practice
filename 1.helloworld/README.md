@@ -38,7 +38,7 @@ cat > helloworld.sh
 #!/bin/bash
 echo "helloworld"
 ```
-> `#!/bin/bash`  這叫做[Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)寫在每個script的第一個行，表示這個script要用/bin/bash 來直譯
+> `#!/bin/bash`  這叫做[Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)寫在每個script的第一個行，表示這個script要用/bin/bash 來直譯，
 > 注意！linux中的shell程序有很多種，有可能會發生沒有bash而換成dash的情況 [參考連結](https://kknews.cc/zh-tw/other/96vkgol.html)
 
 - 執行剛剛建立的`helloworld.sh`
