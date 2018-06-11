@@ -1,3 +1,3 @@
-### this is my shell-script-practice 
+### This is my shell-script-practice 
 
-===
+---
