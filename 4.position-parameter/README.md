@@ -51,6 +51,7 @@ Position parameter 是一個由shell所管理的變數集合，每當user透過s
     一次顯示所有的Position parameter，變數間的空白將會被`$IFS`的第一個字元代替。
 
 - 得到參數的總數`$#`
+
   `$#`返回Position parameter的總數。
 
 ### 怎麼使用 **position parameter**
