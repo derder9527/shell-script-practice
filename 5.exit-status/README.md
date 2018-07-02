@@ -19,7 +19,7 @@ If a command is not found, the shell should return a status of 127. If a command
 
 `echo $?`
 
-使用 `$?` 就可以讀取到上一個指令執行的exit status ，而執行一個script(`sh someScript.sh`)後再去讀取exit status則會得到該script最後一個執行執行的status(若該script為空，則exit status為`sh someScript.sh`的結果)。
+使用 `$?` 就可以讀取到上一個指令執行的exit status ，而執行一個script(`sh someScript.sh`)後再去讀取exit status則會得到該script最後一個執行的status(若該script為空，則exit status為`sh someScript.sh`的結果)。
 
 `someScript.sh`
 
@@ -82,6 +82,8 @@ mv before after && ls
 ```bash
 mv before after || ls
 ```
+
+只有在無法把before rename after的情況下，才會執行ls
 
 [Source at Github](https://github.com/derder9527/shell-script-practice/tree/master/5.exit-status)
 

@@ -84,6 +84,8 @@ fi
 > `-f` 查看檔案是否存在
 >
 > [更多options以及說明](https://linuxacademy.com/blog/linux/conditions-in-bash-scripting-if-statements/)
+>
+> [Introduction to if ](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 
 [SourceCode at Github](https://github.com/derder9527/shell-script-practice/tree/master/6.if-then)
 
