@@ -85,3 +85,5 @@ fi
 >
 > [更多options以及說明](https://linuxacademy.com/blog/linux/conditions-in-bash-scripting-if-statements/)
 
+[SourceCode at Github](https://github.com/derder9527/shell-script-practice/tree/master/6.if-then)
+
