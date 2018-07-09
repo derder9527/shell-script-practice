@@ -9,6 +9,8 @@ if [ $? ]
 then
   echo "資料夾：$folder 建立成功"
   touch ../$folder/$practiceName.sh
+  echo "#!/bin/bash" >>../$folder/$practiceName.sh
+  echo "#$practiceName\n" >>../$folder/$practiceName.sh
   echo "$practiceName.sh 建立成功"
   touch ../$folder/$practiceName"_demo.gif"
   echo "無內容gif：$practiceName"_demo.gif" 建立成功"
